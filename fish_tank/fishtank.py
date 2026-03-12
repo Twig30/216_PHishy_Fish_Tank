@@ -41,7 +41,7 @@ class FishTankCLI():
             system("clear")
             print("Message:")
             if choice == "1":
-                monitor()
+                self.monitor()
 
             elif choice == "2":
                 print("This system monitors the health of a saltwater aquarium.")
